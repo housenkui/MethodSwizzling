@@ -13,6 +13,8 @@
 		EF6E4B191E87774F003AEE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6E4B171E87774F003AEE75 /* Main.storyboard */; };
 		EF6E4B1B1E87774F003AEE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6E4B1A1E87774F003AEE75 /* Assets.xcassets */; };
 		EF6E4B1E1E87774F003AEE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6E4B1C1E87774F003AEE75 /* LaunchScreen.storyboard */; };
+		EF6E4B271E877771003AEE75 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E4B261E877771003AEE75 /* UIViewController+Tracking.m */; };
+		EF6E4B2A1E877B09003AEE75 /* NSDictionary+safeObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E4B291E877B09003AEE75 /* NSDictionary+safeObjectForKey.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EF6E4B1A1E87774F003AEE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6E4B1D1E87774F003AEE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF6E4B1F1E87774F003AEE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6E4B251E877771003AEE75 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		EF6E4B261E877771003AEE75 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
+		EF6E4B281E877B09003AEE75 /* NSDictionary+safeObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+safeObjectForKey.h"; sourceTree = "<group>"; };
+		EF6E4B291E877B09003AEE75 /* NSDictionary+safeObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+safeObjectForKey.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				EF6E4B121E87774F003AEE75 /* AppDelegate.m */,
 				EF6E4B141E87774F003AEE75 /* ViewController.h */,
 				EF6E4B151E87774F003AEE75 /* ViewController.m */,
+				EF6E4B251E877771003AEE75 /* UIViewController+Tracking.h */,
+				EF6E4B261E877771003AEE75 /* UIViewController+Tracking.m */,
+				EF6E4B281E877B09003AEE75 /* NSDictionary+safeObjectForKey.h */,
+				EF6E4B291E877B09003AEE75 /* NSDictionary+safeObjectForKey.m */,
 				EF6E4B171E87774F003AEE75 /* Main.storyboard */,
 				EF6E4B1A1E87774F003AEE75 /* Assets.xcassets */,
 				EF6E4B1C1E87774F003AEE75 /* LaunchScreen.storyboard */,
@@ -151,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF6E4B161E87774F003AEE75 /* ViewController.m in Sources */,
+				EF6E4B271E877771003AEE75 /* UIViewController+Tracking.m in Sources */,
 				EF6E4B131E87774F003AEE75 /* AppDelegate.m in Sources */,
 				EF6E4B101E87774F003AEE75 /* main.m in Sources */,
+				EF6E4B2A1E877B09003AEE75 /* NSDictionary+safeObjectForKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

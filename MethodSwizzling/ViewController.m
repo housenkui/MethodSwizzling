@@ -16,9 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSDictionary *dict = [NSDictionary dictionaryWithObject:@"housenkui" forKey:@"name"];
+    
+    NSString *name = [dict objectForKey:@"name"];
+    
+    NSLog(@"name = %@",name);
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+- (void)viewWillAppear:(BOOL)animated{
+    
+    //如果有categroy 他回去找Categroy的实现
+    //真神奇
+    [super viewWillAppear:animated];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
